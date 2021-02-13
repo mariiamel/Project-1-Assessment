@@ -13,13 +13,13 @@ initialize = () => {
 
 /* Event Listeners */
 buttonPlus.addEventListener('click', function(){
-    result = inputValue.value + 1;
+    result = inputValue.value++;
     resultInput.appendChild(result);
     resultInput.innerText = result;
 })
 
 buttonMinus.addEventListener('click', function(){
-    result = inputValue.value - 1;
+    result = inputValue.value--;
     resultInput.appendChild(result);
     resultInput.innerText = result;
 })
